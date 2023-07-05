@@ -31,7 +31,7 @@ print("\n\t Task 3: Sum in range\n")
 var k: Int = 9
 for i in 10...50 where i % 2 != 0 {
     if ((i + k) % 2 == 0 ){
-        print("k + i = \(i + k)")
+        print("\(k) + \(i) = \(i + k)")
         k += 2
     } else {
         print("Next")
@@ -46,10 +46,10 @@ print("\n\t Task 4: Sum even in range\n")
 k = 9
 for i in 10...50 where i % 2 != 0 {
     if ((i + k) % 2 == 0 ){
-        print("k + i = \(i + k)")
+        print("\(k) + \(i) = \(i + k)")
         k += 1
     } else {
-        print("k + i = \(i + k) -> Next (out)")
+        print("\(k) + \(i) = \(i + k) -> Next (out)")
         break
     }
 }
