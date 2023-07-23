@@ -39,10 +39,11 @@ struct Tea: MenuProtocol {
         case fruit
     }
     
-    var name: String
+    var name: String {
+        return "\(TeaType.self) + tea"
+    }
     var price: Double
     var type: TeaType
-    
 }
 
 
