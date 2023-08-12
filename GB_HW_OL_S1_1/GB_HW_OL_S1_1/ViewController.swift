@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         let button = UIButton ( )
         button.setTitle("Войти", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.setTitleColor(.red, for: .highlighted)
+        button.setTitleColor(.systemBlue, for: .highlighted)
         button.backgroundColor = .systemGreen
         return button
     }()
@@ -60,8 +60,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // UIImage(named: "LogoPandomat")
         view.backgroundColor = .white
+        // button.backgroundColor = UIColor.systemBlue
+        button.addTarget(self, action: #selector(tap), for: .touchUpInside)
         setupViews()
     }
+    
+
       
     private func setupViews () {
         view.addSubview(imageView)
@@ -107,6 +111,28 @@ class ViewController: UIViewController {
             button.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
-            
+    
+    @objc private func tap() {
+        let tab1 = UINavigationController(rootViewController: FriendsViewController())
+        let tab2 = UINavigationController(rootViewController: GroupsViewController())
+        let tab3 = UINavigationController(rootViewController: PhotosViewController(collectionViewLayout: UICollectionViewFlowLayout()))
+        
+        tab1.tabBarItem.title = "Friends"
+        tab2.tabBarItem.title = "Groups"
+        tab3.tabBarItem.title = "Photos"
+        
+        let controllers = [tab1, tab2, tab3]
+        
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = controllers
+        
+        
+        guard let firstScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+                let firstWindow = firstScene.windows.first else {
+            return
+        }
+        
+        firstWindow.rootViewController = tabBarController
+    }
 }
 
