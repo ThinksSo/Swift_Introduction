@@ -3,5 +3,15 @@
     <pages>
         <page name='OL_hw_S1'/>
         <page name='Untitled Page'/>
+        <page name='GB_S2'/>
+        <page name='OL_HW_S2'/>
+        <page name='GB_S3'/>
+        <page name='OL_HW_S3'/>
+        <page name='GB_SWIFT_LECTURES'/>
+        <page name='GB_S4'/>
+        <page name='OL_HW_S4'/>
+        <page name='GB_S5'/>
+        <page name='OL_HW_S5'/>
+        <page name='OL_HW_S6'/>
     </pages>
 </playground>
