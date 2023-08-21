@@ -1,6 +1,6 @@
 //
 //  PhotosViewController.swift
-//  GB_HW_OL_S1_1
+//  GB_HW_OL_S1_3
 //
 //  Created by OL on 12.08.2023.
 //
@@ -17,7 +17,7 @@ final class PhotosViewController: UICollectionViewController {
     
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
+        return 20
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

@@ -1,6 +1,6 @@
 //
 //  FriendsViewController.swift
-//  GB_HW_OL_S1_1
+//  GB_HW_OL_S1_3
 //
 //  Created by OL on 12.08.2023.
 //
@@ -19,7 +19,7 @@ final class FriendsViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        5
+        50
     }
     override func tableView(_ tableView: UITableView, cellForRowAt
                             indexPath: IndexPath) -> UITableViewCell {

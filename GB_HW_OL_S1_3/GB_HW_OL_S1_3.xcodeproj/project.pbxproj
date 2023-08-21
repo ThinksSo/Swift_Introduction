@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C3504452A9222F500C50115 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3504442A9222F500C50115 /* NetworkService.swift */; };
+		7C3504472A92262400C50115 /* AppCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3504462A92262400C50115 /* AppCode.swift */; };
+		7C3504492A926CBA00C50115 /* FriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3504482A926CBA00C50115 /* FriendsModel.swift */; };
+		7C35044B2A926E8B00C50115 /* GroupsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35044A2A926E8B00C50115 /* GroupsModel.swift */; };
+		7C35044D2A92947000C50115 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C35044C2A92947000C50115 /* PhotosModel.swift */; };
 		7CA5550D2A83A6BD00139BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5550C2A83A6BD00139BF3 /* AppDelegate.swift */; };
 		7CA5550F2A83A6BD00139BF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5550E2A83A6BD00139BF3 /* SceneDelegate.swift */; };
 		7CA555112A83A6BD00139BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA555102A83A6BD00139BF3 /* ViewController.swift */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C3504442A9222F500C50115 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		7C3504462A92262400C50115 /* AppCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCode.swift; sourceTree = "<group>"; };
+		7C3504482A926CBA00C50115 /* FriendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModel.swift; sourceTree = "<group>"; };
+		7C35044A2A926E8B00C50115 /* GroupsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsModel.swift; sourceTree = "<group>"; };
+		7C35044C2A92947000C50115 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
 		7CA555092A83A6BD00139BF3 /* GB_HW_OL_S1_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GB_HW_OL_S1_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA5550C2A83A6BD00139BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA5550E2A83A6BD00139BF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +91,11 @@
 				7CA5554A2A87D8F900139BF3 /* PhotosViewController.swift */,
 				7CA5554C2A87DB7C00139BF3 /* PhotoCell.swift */,
 				7CA5554E2A87E2F500139BF3 /* Constants.swift */,
+				7C3504442A9222F500C50115 /* NetworkService.swift */,
+				7C3504462A92262400C50115 /* AppCode.swift */,
+				7C3504482A926CBA00C50115 /* FriendsModel.swift */,
+				7C35044A2A926E8B00C50115 /* GroupsModel.swift */,
+				7C35044C2A92947000C50115 /* PhotosModel.swift */,
 			);
 			path = GB_HW_OL_S1_3;
 			sourceTree = "<group>";
@@ -155,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C3504452A9222F500C50115 /* NetworkService.swift in Sources */,
 				7CA555492A87D0E300139BF3 /* GroupCell.swift in Sources */,
 				7CA5554D2A87DB7C00139BF3 /* PhotoCell.swift in Sources */,
 				7CA5554B2A87D8F900139BF3 /* PhotosViewController.swift in Sources */,
@@ -162,7 +178,11 @@
 				7CA555432A87C9F500139BF3 /* FriendsCell.swift in Sources */,
 				7CA5554F2A87E2F500139BF3 /* Constants.swift in Sources */,
 				7CA555472A87CEE100139BF3 /* GroupsViewController.swift in Sources */,
+				7C3504472A92262400C50115 /* AppCode.swift in Sources */,
+				7C3504492A926CBA00C50115 /* FriendsModel.swift in Sources */,
 				7CA555112A83A6BD00139BF3 /* ViewController.swift in Sources */,
+				7C35044D2A92947000C50115 /* PhotosModel.swift in Sources */,
+				7C35044B2A926E8B00C50115 /* GroupsModel.swift in Sources */,
 				7CA5550D2A83A6BD00139BF3 /* AppDelegate.swift in Sources */,
 				7CA5550F2A83A6BD00139BF3 /* SceneDelegate.swift in Sources */,
 			);
