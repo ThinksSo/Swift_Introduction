@@ -100,26 +100,3 @@ final class NetworkService {
     }
 }
 
-
-//    func getFriends() {
-//        guard let url = URL(string: "https://api.vk.com/method/friends.get?fields=photo_400&access_token=NetworkService.token)&v=5.131") else {
-//            return
-//        }
-
-//    func getFriends(completion: @escaping([Friend]) -> Void) {
-//        guard let url = URL(string: "https://api.vk.com/method/friends.get?fields=photo_50,online&access_token=\(NetworkService.token)&v=5.131") else {
-//            return
-//        }
-
-//        session.dataTask(with: url) { (data, _, error) in
-//            guard let data = data else {
-//                return
-//            }
-//            do {
-//                let friends = try JSONDecoder().decode(FriendsModel.self, from: data)
-//                completion(friends.response.items)
-//                print(friends)
-//            } catch {
-//                print(error)
-//            }
-//        }.resume()

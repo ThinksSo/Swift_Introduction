@@ -12,22 +12,6 @@ final class GroupsViewController: UITableViewController {
     private let fileCache = FileCache()
     
     
-    //    override func viewDidLoad() {
-    //        super.viewDidLoad()
-    //        title = "Groups"
-    //        view.backgroundColor = .white
-    //        tableView.backgroundColor = .white
-    //        navigationController?.navigationBar.tintColor = .black
-    //        navigationController?.navigationBar.barTintColor = .black
-    //        tableView.register(GroupCell.self, forCellReuseIdentifier: "GroupCell")
-    //        networkService.getGroups { [weak self] groups in
-    //            self?.models = groups
-    //            DispatchQueue.main.async {
-    //                self?.tableView.reloadData()
-    //            }
-    //        }
-    //    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         models = fileCache.fetchGroups()
