@@ -1,8 +1,6 @@
 //
 //  PhotosModel.swift
-//  GB_HW_OL_S1_3
-//
-//  Created by OL on 20.08.2023.
+//  GB_HW_OL
 //
 
 

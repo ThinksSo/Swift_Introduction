@@ -1,8 +1,6 @@
 //
 //  FriendsModel.swift
-//  GB_HW_OL_S1_3
-//
-//  Created by OL on 20.08.2023.
+//  GB_HW_OL
 //
 
 struct FriendsModel: Decodable {
@@ -18,11 +16,15 @@ struct Friend: Decodable {
     var firstName: String?
     var lastName: String?
     var photo: String?
+    var online: Int?
     
     enum CodingKeys: String, CodingKey {
         case id
         case firstName = "first_name"
         case lastName = "last name"
-        case photo = "photo_400"
+        case photo = "photo_400_orig"
+        case online
     }
 }
+
+

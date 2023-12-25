@@ -14,11 +14,12 @@ class ViewController: UIViewController {
         let webView = WKWebView(frame: view.bounds)
         webView.navigationDelegate = self
         return webView
-    } ()
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        ThemeSaver.getData()
+        view.backgroundColor = Theme.currentTheme.backgroundColor
         setupViews()
         
         let url = URL(string: "https://oauth.vk.com/authorize?client_id=" + AppCode.appCode + "&redirect_uri=https://oauth.vk.com/blank.html&scope=262150&display=mobile&response_type=token")
@@ -55,7 +56,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: WKNavigationDelegate {
-    func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping (WKNavigationResponsePolicy) -> Void) {
+    func webView(_ webView: WKWebView, decidePolicyFor navigationResponse: WKNavigationResponse, decisionHandler: @escaping(WKNavigationResponsePolicy) -> Void) {
         guard let url = navigationResponse.response.url, url.path == "/blank.html", let fragment = url.fragment else {
             decisionHandler(.allow)
             return
@@ -79,7 +80,14 @@ extension ViewController: WKNavigationDelegate {
         tap()
     }
     
-     
+}
+
+//private extension UIViewController {
+//    @objc funk tap() {
+//        navigationController?
+//            .pushViewController(UITableViewController(), animated: true)
+//    }
+//}
     
     
 //    private var imageView = UIImageView(image: UIImage (named: "LogoPandomat" ))
@@ -186,5 +194,5 @@ extension ViewController: WKNavigationDelegate {
 //    }
     
  
-}
+
 

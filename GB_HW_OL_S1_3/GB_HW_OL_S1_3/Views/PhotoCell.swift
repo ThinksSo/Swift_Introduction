@@ -1,8 +1,6 @@
 //
 //  PhotoCell.swift
-//  GB_HW_OL_S1_3
-//
-//  Created by OL on 12.08.2023.
+//  GB_HW_OL
 //
 
 import UIKit
@@ -11,14 +9,27 @@ final class PhotoCell: UICollectionViewCell {
     
     private let photoView = UIImageView(image: UIImage (systemName: "person" ))
 
-    override init (frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
     }
     
     required init?(coder: NSCoder) {
-        fatalError ("init (coder:) has not been implemented")
+        fatalError("init (coder:) has not been implemented")
     }
+    
+    func updateCell(model: Photo) {
+        DispatchQueue.global().async {
+            if let url = URL(string: model.sizes.first?.url ?? ""), let data = try? Data(contentsOf: url)
+            {
+                DispatchQueue.main.async {
+                    self.photoView.image = UIImage(data: data)
+                }
+            }
+        }
+    }
+    
+    
     private func setupViews() {
         addSubview(photoView)
         setupConstraints()

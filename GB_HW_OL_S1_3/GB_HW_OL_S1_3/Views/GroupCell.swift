@@ -1,8 +1,6 @@
 //
 //  GroupCell.swift
-//  GB_HW_OL_S1_3
-//
-//  Created by OL on 12.08.2023.
+//  GB_HW_OL
 //
 
 import UIKit
@@ -10,7 +8,7 @@ import UIKit
 
 final class GroupCell: UITableViewCell {
     
-    private var groupImageView = UIImageView(image: UIImage (systemName: "person" ))
+    private var groupImageView = UIImageView(image: UIImage(systemName: "person"))
     
     private var title: UILabel = {
         let label = UILabel()
@@ -22,7 +20,7 @@ final class GroupCell: UITableViewCell {
     private var subtitle: UILabel = {
         let label = UILabel()
         label.text = "Description"
-        label.textColor = .gray
+        label.textColor = Theme.currentTheme.subtitleTextColor
         return label
     }()
     
@@ -34,8 +32,23 @@ final class GroupCell: UITableViewCell {
     }
     
     required init?(coder: NSCoder) {
-        fatalError ("init (coder:) has not been implemented" )
+        fatalError("init (coder:) has not been implemented")
     }
+    
+    func updateCell(model: Group) {
+        title.text = model.name
+        subtitle.text = model.description
+        DispatchQueue.global().async {
+            if let url = URL(string: model.photo ?? ""), let data = try?
+                Data(contentsOf: url)
+            {
+                DispatchQueue.main.async {
+                    self.groupImageView.image = UIImage(data: data)
+                }
+            }
+        }
+    }
+    
     
     private func seitupViews() {
         contentView.addSubview(groupImageView)
@@ -44,7 +57,7 @@ final class GroupCell: UITableViewCell {
         setupConstraints()
     }
     
-    private func setupConstraints () {
+    private func setupConstraints() {
         groupImageView.translatesAutoresizingMaskIntoConstraints = false
         title.translatesAutoresizingMaskIntoConstraints = false
         subtitle.translatesAutoresizingMaskIntoConstraints = false
