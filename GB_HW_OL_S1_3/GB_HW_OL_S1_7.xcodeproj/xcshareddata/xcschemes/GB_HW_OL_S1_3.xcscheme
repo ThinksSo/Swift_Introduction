@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7CA555082A83A6BD00139BF3"
-               BuildableName = "GB_HW_OL_S1_3.app"
-               BlueprintName = "GB_HW_OL_S1_3"
-               ReferencedContainer = "container:GB_HW_OL_S1_3.xcodeproj">
+               BuildableName = "GB_HW_OL_S1_7.app"
+               BlueprintName = "GB_HW_OL_S1_7"
+               ReferencedContainer = "container:GB_HW_OL_S1_7.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7CA555082A83A6BD00139BF3"
-            BuildableName = "GB_HW_OL_S1_3.app"
-            BlueprintName = "GB_HW_OL_S1_3"
-            ReferencedContainer = "container:GB_HW_OL_S1_3.xcodeproj">
+            BuildableName = "GB_HW_OL_S1_7.app"
+            BlueprintName = "GB_HW_OL_S1_7"
+            ReferencedContainer = "container:GB_HW_OL_S1_7.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7CA555082A83A6BD00139BF3"
-            BuildableName = "GB_HW_OL_S1_3.app"
-            BlueprintName = "GB_HW_OL_S1_3"
-            ReferencedContainer = "container:GB_HW_OL_S1_3.xcodeproj">
+            BuildableName = "GB_HW_OL_S1_7.app"
+            BlueprintName = "GB_HW_OL_S1_7"
+            ReferencedContainer = "container:GB_HW_OL_S1_7.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

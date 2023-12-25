@@ -48,7 +48,7 @@
 		7C3504482A926CBA00C50115 /* FriendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModel.swift; sourceTree = "<group>"; };
 		7C35044A2A926E8B00C50115 /* GroupsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsModel.swift; sourceTree = "<group>"; };
 		7C35044C2A92947000C50115 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
-		7CA555092A83A6BD00139BF3 /* GB_HW_OL_S1_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GB_HW_OL_S1_3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA555092A83A6BD00139BF3 /* GB_HW_OL_S1_7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GB_HW_OL_S1_7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CA5550C2A83A6BD00139BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CA5550E2A83A6BD00139BF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7CA555102A83A6BD00139BF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		7CA555002A83A6BD00139BF3 = {
 			isa = PBXGroup;
 			children = (
-				7CA5550B2A83A6BD00139BF3 /* GB_HW_OL_S1_3 */,
+				7CA5550B2A83A6BD00139BF3 /* GB_HW_OL_S1_7 */,
 				7CA5550A2A83A6BD00139BF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -148,12 +148,12 @@
 		7CA5550A2A83A6BD00139BF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7CA555092A83A6BD00139BF3 /* GB_HW_OL_S1_3.app */,
+				7CA555092A83A6BD00139BF3 /* GB_HW_OL_S1_7.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CA5550B2A83A6BD00139BF3 /* GB_HW_OL_S1_3 */ = {
+		7CA5550B2A83A6BD00139BF3 /* GB_HW_OL_S1_7 */ = {
 			isa = PBXGroup;
 			children = (
 				7C18B7E42B39D9AA00E59A36 /* Common */,
@@ -169,15 +169,15 @@
 				7CA555172A83A6BF00139BF3 /* LaunchScreen.storyboard */,
 				7CA5551A2A83A6BF00139BF3 /* Info.plist */,
 			);
-			path = GB_HW_OL_S1_3;
+			path = GB_HW_OL_S1_7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7CA555082A83A6BD00139BF3 /* GB_HW_OL_S1_3 */ = {
+		7CA555082A83A6BD00139BF3 /* GB_HW_OL_S1_7 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7CA5551D2A83A6BF00139BF3 /* Build configuration list for PBXNativeTarget "GB_HW_OL_S1_3" */;
+			buildConfigurationList = 7CA5551D2A83A6BF00139BF3 /* Build configuration list for PBXNativeTarget "GB_HW_OL_S1_7" */;
 			buildPhases = (
 				7CA555052A83A6BD00139BF3 /* Sources */,
 				7CA555062A83A6BD00139BF3 /* Frameworks */,
@@ -187,9 +187,9 @@
 			);
 			dependencies = (
 			);
-			name = GB_HW_OL_S1_3;
+			name = GB_HW_OL_S1_7;
 			productName = GB_HW_OL_S1_1;
-			productReference = 7CA555092A83A6BD00139BF3 /* GB_HW_OL_S1_3.app */;
+			productReference = 7CA555092A83A6BD00139BF3 /* GB_HW_OL_S1_7.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7CA555042A83A6BD00139BF3 /* Build configuration list for PBXProject "GB_HW_OL_S1_3" */;
+			buildConfigurationList = 7CA555042A83A6BD00139BF3 /* Build configuration list for PBXProject "GB_HW_OL_S1_7" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CA555082A83A6BD00139BF3 /* GB_HW_OL_S1_3 */,
+				7CA555082A83A6BD00139BF3 /* GB_HW_OL_S1_7 */,
 			);
 		};
 /* End PBXProject section */
@@ -457,7 +457,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CA555042A83A6BD00139BF3 /* Build configuration list for PBXProject "GB_HW_OL_S1_3" */ = {
+		7CA555042A83A6BD00139BF3 /* Build configuration list for PBXProject "GB_HW_OL_S1_7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CA5551B2A83A6BF00139BF3 /* Debug */,
@@ -466,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CA5551D2A83A6BF00139BF3 /* Build configuration list for PBXNativeTarget "GB_HW_OL_S1_3" */ = {
+		7CA5551D2A83A6BF00139BF3 /* Build configuration list for PBXNativeTarget "GB_HW_OL_S1_7" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CA5551E2A83A6BF00139BF3 /* Debug */,
